@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(python -m venv venv)",
+      "PowerShell(py -3 --version)",
+      "PowerShell(py -3 -m venv venv)",
+      "Bash(find \"c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\" -name \"*.yaml\" -o -name \"*.yml\" 2>/dev/null | head -10)",
+      "Read(//c/Users/Heeseok Choi/Desktop/pycharm_project/oral_cavity_classification/**)",
+      "PowerShell(.\\\\venv\\\\Scripts\\\\pip install streamlit ultralytics Pillow)",
+      "Bash(ls \"c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\\\\streamlit_apps\\\\test_mask\\\\images\" | head -5; echo \"---\"; ls \"c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\\\\streamlit_apps\\\\test_mask\\\\labels\" | head -5; echo \"---\"; cat \"c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\\\\streamlit_apps\\\\test_mask\\\\labels\\\\$\\(ls 'c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\\\\streamlit_apps\\\\test_mask\\\\labels' | head -1\\)\")",
+      "Read(//c/Users/Heeseok Choi/Desktop/pycharm_project/oral_cavity_classification/streamlit_apps/test_mask/labels$\\(ls 'c:/Users/Heeseok Choi/Desktop/pycharm_project/oral_cavity_classification/streamlit_apps/test_mask/**)",
+      "Bash(xargs grep -l \"dental\")",
+      "Bash(xargs grep -l \"calculus\")",
+      "Bash(Get-Content \"c:\\\\Users\\\\Heeseok Choi\\\\Desktop\\\\pycharm_project\\\\oral_cavity_classification\\\\streamlit_apps\\\\test_mask\\\\labels\\\\\\(1002\\).txt\" -TotalCount 3)"
+    ]
+  }
+}
