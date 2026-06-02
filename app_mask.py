@@ -19,8 +19,8 @@ CLASS_COLORS = {
     2: (255, 112, 31),
 }
 
-MODEL_PATH = r"models\mask_best.pt"
-DATA_ROOT  = r"test_mask"
+MODEL_PATH = "models/mask_best.pt"
+DATA_ROOT  = "test_mask"
 IMAGES_DIR = os.path.join(DATA_ROOT, "images")
 LABELS_DIR = os.path.join(DATA_ROOT, "labels")
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp"}
@@ -123,7 +123,7 @@ def render_info():
     )
 
     st.markdown(
-        "- **데이터셋**: [Oral screening](https://data.mendeley.com/datasets/3253gj88rr/1)\n"
+        "- **데이터셋**: [Oral screening](https://link.springer.com/article/10.1186/s12903-024-05072-1#data-availability)\n"
         "- **모델**: YOLO11s-seg"
     )
 
